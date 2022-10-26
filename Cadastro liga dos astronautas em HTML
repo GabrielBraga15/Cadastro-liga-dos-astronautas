@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro liga dos astronautas</title>
+  </head>
+  <h3>Cadastro liga dos astronautas</h3>
+<div>
+  <form action="<label for="fname"><b>Nome:</b>
+    <input type="text" id="fname" name="fname><br>"></label><br>
+    <p></p>
+  </div>
+    <div>
+    <label for="email"><b>Email:</b></label><input type="email" id="email" name="email" autocomplete="off"> -
+    <label for="pin"><b>Password:</b></label>
+    <input type="password" id="pin" name="pin" ><br>
+</div>
+<br>
+<div>
+    <label for="datemin"><b>Data de nascimento:</b></label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"> <b>- Foto</b> <label for="files"></label>
+  <input type="file" id="files" name="files" multiple><br><br>
+</div>
+
+<div>
+  <label for="nationality">Nacionalidade</label>
+  <select name="nationality" id="nationality">
+    <option value="Russian"> Russa </option>
+    <option value="American"> Americana </option>
+    <option value="Brazillian"> Brasileira </option>
+  </select>
+
+- <b>Gênero:  F</b><input type = "radio" id = "subscribeNews" name = "subscribe" value = "newsletter">
+  <label for = "subscribeNews"> <b> M</b> <input type = "radio" id = "subscribeNews" name = "subscribe" value = "newsletter">
+    <label for = "subscribeNews"></ label>
+</div>
+<div>
+  <h4>Suas principais qualidades:</h4>
+  <b>Inteligência</b> <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "newsletter">
+  <label for = "subscribeNews"></ label> |
+    <b>Resiliência</b> <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "newsletter">
+  <label for = "subscribeNews"></ label> |
+    <b>Preparo físico</b> <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "newsletter">
+  <label for = "subscribeNews"></ label> |
+    <b>Educação</b> <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "newsletter">
+  <label for = "subscribeNews"></ label> |
+</div>
+<br>
+ <div>
+  <textarea name="" id="" cols="30" rows="10" disabled>Porque você gostaria de ser um astronauta?  
+  </textarea>
+ </div>
+ <div>
+  <input type="button" onclick="alert('Hello World!')" value="Criar">
+ </div>
+
+    
+  
+  
+
+  </form>
+</html>
